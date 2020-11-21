@@ -1,4 +1,4 @@
-# Weather application: GET THE WEATHER REPORT OF YOUR LOCALITY WITH node.js!
+# Weather application: Get the weather report from your locality with node.js!
 ## Featuring: PositionStack and OpenWeatherMap
 Add your own API Keys and try it! (To do it, just add them to apiKey.json in config and start having fun)
 
