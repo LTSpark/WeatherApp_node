@@ -18,7 +18,7 @@ const getInfo=async(direction)=>{
         message+=`\n\tTemperature:   `+`${report.temp}ºC`.yellow;
         message+=`\n\tHumidity:      `+`${report.humidity}%`.yellow;
         message+=`\n\tCloudiness:    `+`${report.cloudiness}%`.yellow;
-        message+=`\n\tWind velocity: `+`${report.windVelocity}km/h\n`.yellow;
+        message+=`\n\tWind velocity: `+`${report.windVelocity} km/h\n`.yellow;
         message+=`\n--------------------------${fill}`.green;
 
         return message;
