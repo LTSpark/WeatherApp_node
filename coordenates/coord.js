@@ -7,7 +7,6 @@ const getCoordinates = async(direction) => {
     let country=encodeURI(direction.country);
     let region=encodeURI(direction.region);
 
-    let APIkey="fe835d2b13f6e774285b4e98be675dfd";
     let petition=`http://api.positionstack.com/v1/forward?access_key=${key.positionStack}&query=${city}`;
 
     if(country!='none'){
