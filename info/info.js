@@ -14,7 +14,7 @@ const getInfo=async(direction)=>{
 
         message+=`\n-------------Weather Report of ${place.name}--------------\n`.green;
         message+=`\n\tLatitude: `+`${place.latitude}`.cyan+` Longitude: `+`${place.longitude}\n`.cyan;
-        message+=`\n\tMain Weather:   `+`${report.weather}`.yellow;
+        message+=`\n\tMain Weather:  `+`${report.weather}`.yellow;
         message+=`\n\tTemperature:   `+`${report.temp}ºC`.yellow;
         message+=`\n\tHumidity:      `+`${report.humidity}%`.yellow;
         message+=`\n\tCloudiness:    `+`${report.cloudiness}%`.yellow;
